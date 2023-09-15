@@ -55,11 +55,13 @@ header>.app-main-btn {
     float: right;
 }
 
-/*main*/
 .app-main-wrap {
     margin: 0 calc(var(--gutter-width) * 2);
     height: calc(100% - var(--header-height) - var(--footer-height));
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: var(--gutter-width);
 }
 
 .app-main-wrap .app-main {
@@ -69,18 +71,22 @@ header>.app-main-btn {
 
 .app-main-wrap .app-sidebar {
     border: 1px solid #000;
-    float: left;
-    width: 100%;
-    box-sizing: border-box;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
+    box-sizing: border-box;
 }
 
 .app-main-wrap .desc {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 
-.app-main-wrap .app-bg-cont img {
+.app-main-wrap .app-bg-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--gutter-width);
+}
+
+.app-bg-cont img {
     width: 100%;
 }
 
