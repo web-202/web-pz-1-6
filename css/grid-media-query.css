@@ -1,0 +1,58 @@
+@media screen and (min-width: 780px) {
+    .wrapper{
+        grid-template-columns: 2fr 1fr
+    }
+
+    input[type="button"]{
+        background-color: brown;
+    }
+
+    h1{
+        color: green
+    }
+
+    h2{
+        color: green
+    }
+    
+    h3{
+        color: green
+    }
+
+    header{
+        color: green
+    }
+
+    main{
+        float: left;
+    }
+    
+    .title-footer > b{
+        color: green;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+    input[type="button"]{
+        background-color: red;
+    }
+    header{
+        color: blue
+    }
+
+    h1{
+        color: blue
+    }
+
+    h2{
+        color: blue
+    }
+
+    h3{
+        color: blue
+    }
+
+    .title-footer > b{
+        color: blue;
+    }
+}

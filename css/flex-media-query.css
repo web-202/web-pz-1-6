@@ -1,0 +1,54 @@
+@media screen and (min-width: 780px) {
+    main{
+        display: flex;
+    }
+
+    input[type="submit"]{
+        background-color: brown;
+    }
+    
+    .sidebar{
+        width: 20%;
+    }
+
+    ul{
+        color: green
+    }
+
+    h1{
+        color: green
+    }
+
+    h2{
+        color: green
+    }
+
+    h3{
+        color: green
+    }
+
+    .image{
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+    input[type="submit"]{
+        background-color: red;
+    }
+    ul{
+        color: blue
+    }
+
+    h1{
+        color: blue
+    }
+
+    h2{
+        color: blue
+    }
+
+    h3{
+        color: blue
+    }
+}

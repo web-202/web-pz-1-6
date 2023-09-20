@@ -1,0 +1,62 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: red;
+    width: 40%;
+}
+
+ul li{
+    padding-left: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+.main-blocks{
+    width: 100%;
+}
+
+h1{ 
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.sidebar{
+    border: 1px solid;
+}
+
+.image{
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+h3{
+    color: red;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.btn{
+    width: 60%;
+    text-align: right;
+}

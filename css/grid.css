@@ -1,0 +1,57 @@
+.add-border{
+    border: 1px solid;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 130px 80px 80px 80px 1fr;
+    gap: 1px;
+    color: red;
+    align-items: center;
+}
+
+.btn{
+    grid-column: end;
+}
+
+input[type="button"]{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+}
+
+.item-1{
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+.title-wrapper{
+    color: red;
+}
+
+h3{
+    color: red;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
