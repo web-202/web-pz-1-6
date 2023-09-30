@@ -4,23 +4,23 @@
     }
 
     input[type="button"]{
-        background-color: brown;
+        background-color: var(--button-color-table);
     }
 
     h1{
-        color: green
+        color: var(--title-color-table);
     }
 
     h2{
-        color: green
+        color: var(--title-color-table);
     }
     
     h3{
-        color: green
+        color: var(--title-color-table);
     }
 
     header{
-        color: green
+        color: var(--title-color-table);
     }
 
     main{
@@ -28,31 +28,31 @@
     }
     
     .title-footer > b{
-        color: green;
+        color: var(--title-color-table);;
     }
 }
 
 @media screen and (min-width: 1268px) {
     input[type="button"]{
-        background-color: red;
+        background-color: var(--button-color-desktop);
     }
     header{
-        color: blue
+        color: var(  --title-color-desktop);
     }
 
     h1{
-        color: blue
+        color:  var(  --title-color-desktop);
     }
 
     h2{
-        color: blue
+        color:  var(  --title-color-desktop);
     }
 
     h3{
-        color: blue
+        color:  var(  --title-color-desktop);
     }
 
     .title-footer > b{
-        color: blue;
+        color:  var(  --title-color-desktop);;
     }
 }

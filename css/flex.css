@@ -2,7 +2,7 @@ ul{
     display: flex;
     list-style-type: none;
     align-items: center;
-    color: red;
+    color: var(--title-color-mobile);
     width: 40%;
 }
 
@@ -25,11 +25,11 @@ main{
 }
 
 h1{ 
-    color: red;
+    color:  var(--title-color-mobile);
 }
 
 h2{
-    color: red;
+    color:  var(--title-color-mobile);
 }
 
 .sidebar{
@@ -46,11 +46,11 @@ footer{
 }
 
 h3{
-    color: red;
+    color:  var(--title-color-mobile);
 }
 
 input[type="submit"]{
-    background-color: blue;
+    background-color: var(--button-color-mobile);
     color: white;
     border: none;
     padding: 10px;
