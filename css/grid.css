@@ -8,7 +8,6 @@
 }
 
 .logo {
-  float: left;
   margin-right: 10px;
   color: blue;
   text-transform: capitalize;
@@ -17,12 +16,19 @@
   line-height: 10px;
 }
 
+
 .nav_bar {
   margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(20, auto);
+}
+
+.link_container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
 }
 
 .nav_bar a {
-  margin: 8px;
   text-decoration: none;
   color: blue;
   font-weight: 400;
@@ -30,25 +36,27 @@
 
 .button {
   text-transform: uppercase;
-  float: right;
   color: white;
   background-color: red;
   padding: 8px 20px 8px 20px;
   border: none;
   font-size: 20px;
   margin-top: -2%;
+  grid-column-start: 20;
+  grid-column-end: 20;
 }
 
 .main {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  column-gap: 10px;
   text-align: center;
   margin-top: 5%;
 }
 
 .content {
-  display: block;
-  width: 70%;
-  float: left;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 .title {
@@ -73,20 +81,17 @@
 
 .sidebar {
   border: 1px solid black;
-  width: 25%;
-  height: 1000px;
   text-align: left;
-  display: inline-block;
+  grid-column-start: 4;
+  grid-column-end: 4;
 }
 
-
 .sidebar h2 {
-  margin-left: 10%;
   text-transform: capitalize;
   color: blue;
   font-weight: 800;
+  margin-left: 20px;
 }
-
 
 .footer {
   text-align: center;

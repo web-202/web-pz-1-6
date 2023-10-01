@@ -8,7 +8,6 @@
 }
 
 .logo {
-  float: left;
   margin-right: 10px;
   color: blue;
   text-transform: capitalize;
@@ -19,10 +18,15 @@
 
 .nav_bar {
   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
 }
 
 .nav_bar a {
-  margin: 8px;
+  margin: -2px 0 0 8px;
   text-decoration: none;
   color: blue;
   font-weight: 400;
@@ -36,19 +40,17 @@
   padding: 8px 20px 8px 20px;
   border: none;
   font-size: 20px;
-  margin-top: -2%;
+  margin: -1% 0 0 0;
 }
 
 .main {
-  display: inline-block;
+  display: flex;
   text-align: center;
   margin-top: 5%;
 }
 
 .content {
   display: block;
-  width: 70%;
-  float: left;
 }
 
 .title {
@@ -73,12 +75,10 @@
 
 .sidebar {
   border: 1px solid black;
-  width: 25%;
-  height: 1000px;
+  width: 100%;
   text-align: left;
-  display: inline-block;
+  margin-left: 2%;
 }
-
 
 .sidebar h2 {
   margin-left: 10%;
@@ -86,7 +86,6 @@
   color: blue;
   font-weight: 800;
 }
-
 
 .footer {
   text-align: center;
@@ -98,3 +97,4 @@
   color: blue;
   text-transform: capitalize;
 }
+

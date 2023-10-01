@@ -8,6 +8,10 @@
     color: red;
   }
 
+  .main {
+    display: inline-block;
+  }
+
   .content {
     width: 100%;
     float: none;
@@ -67,9 +71,6 @@
     color: green;
   }
 
-  .sidebar {
-    height: 900px;
-  }
 
   .sidebar h2 {
     color: green;
