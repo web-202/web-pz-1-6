@@ -5,7 +5,10 @@ html {
     height: 100%;
 }
 body {
-    height: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;   
+    margin: 0;
 }
 header {
     padding: var(--gutter-width) calc(var(--gutter-width) * 2);
@@ -52,6 +55,8 @@ header > .app-main-btn {
     margin: 0 calc(var(--gutter-width) * 2);
     height: calc(100% - var(--header-height) - var(--footer-height));
     box-sizing: border-box;
+    padding: 20px;
+    flex-grow: 1;
 }
 .app-main-wrap .app-main{
     text-align: center;
@@ -65,6 +70,7 @@ header > .app-main-btn {
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
 }
+
 .app-main-wrap .desc {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
@@ -72,6 +78,7 @@ header > .app-main-btn {
     width: 100%;
 }
 footer {
+    
     margin: 0 calc(var(--gutter-width) * 2);
     height: var(--footer-height);
     text-align: center;
