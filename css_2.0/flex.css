@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body h1 , h2{
+    font-weight: 900;
+}
+
+body header {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    color: blue;
+
+}
+
+body header h2 {
+    display: flex;
+    height: 30px;
+    margin: 0;
+}
+
+body header ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+body header ul li {
+    display: flex;
+    text-align: center;
+    width: 75px;
+}
+
+body header ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+body header .prs-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+body .prs-layout {
+    display: flex;
+    margin-top: 30px;
+}
+
+body .prs-layout .prs-text {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+body .prs-layout .prs-text h1 {
+    display: flex;
+    align-self: center;
+    color: blue;
+}
+
+body .prs-layout .prs-text p {
+    display: flex;
+    width: 100%;
+}
+
+body .prs-layout .prs-text .prs-desktopImg {
+    width: 95%;
+    height: 70%;
+}
+
+body .prs-layout .prs-text .prs-tabletImg {
+    display: none;
+}
+
+body .prs-layout .prs-text .prs-mobileImg {
+    display: none;
+}
+
+body .prs-layout .prs-slidebar {
+    display: flex;
+    border: 1px solid black;
+    height: 890px;
+    width: 100%;
+}
+
+body .prs-layout .prs-slidebar h2 {
+    display: flex;
+    color: blue;
+    margin-left: 20px;
+}
+
+body footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+body footer h2 {
+    display: flex;
+    align-self: center;
+    color: blue;
+}
+
+body footer p {
+    display: flex;
+    align-self: center;
+    margin: 0;
+}

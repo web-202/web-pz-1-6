@@ -1,0 +1,123 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
+  body header {
+    color: red;
+  }
+
+  body header ul li a {
+    color: red;
+  }
+
+  body header .prs-button {
+    background-color: blue;
+  }
+
+  body .prs-layout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  body .prs-layout .prs-text {
+    width: auto;
+  }
+
+  body .prs-layout .prs-text h1 {
+    color: red;
+  }
+
+  body .prs-layout .prs-text p {
+    width: 85%;
+    text-align: center;
+  }
+
+  body .prs-layout .prs-text .prs-desktopImg {
+    display: none;
+  }
+
+  body .prs-layout .prs-text .prs-tabletImg {
+    display: none;
+  }
+
+  body .prs-layout .prs-text .prs-mobileImg {
+    display: grid;
+    width: 85%;
+    height: auto;
+  }
+
+  body .prs-layout .prs-slidebar {
+    display: grid;
+    border: 1px solid black;
+    height: auto;
+    width: 85%;
+  }
+
+  body .prs-layout .prs-slidebar h2 {
+    color: red;
+  }
+
+  body footer h2 {
+    color: red;
+  }
+
+  body footer p {
+    text-align: justify;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width: 1023px) {
+  body header {
+    color: green;
+  }
+
+  body header ul li a {
+    color: green;
+  }
+
+  body header .prs-button {
+    background-color: rgb(165, 0, 0);
+  }
+
+  body .prs-layout {
+    grid-template-columns: auto 200px;
+  }
+
+  body .prs-layout .prs-text {
+    display: grid;
+    width: 95%;
+  }
+
+  body .prs-layout .prs-text h1 {
+    color: green;
+  }
+
+  body .prs-layout .prs-text p {
+    width: 95%;
+  }
+
+  body .prs-layout .prs-text .prs-desktopImg {
+    display: none;
+  }
+
+  body .prs-layout .prs-text .prs-tabletImg {
+    display: grid;
+    width: 95%;
+    height: 80%;
+  }
+
+  body .prs-layout .prs-slidebar h2 {
+    color: green;
+  }
+
+  body footer h2 {
+    color: green;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) {}
+
+/* Extra large devices*/
+@media (min-width: 2560) {}

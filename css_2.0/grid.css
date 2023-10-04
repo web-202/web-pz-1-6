@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h1,
+h2 {
+    font-weight: 900;
+}
+
+body header {
+    display: grid;
+    grid-template-columns: 95px repeat(2, auto);
+    align-items: center;
+    height: 30px;
+    width: 99%;
+    color: blue;
+}
+
+body header h2 {
+    display: grid;
+    height: 30px;
+    margin: 0;
+    justify-self: start;
+}
+
+body header ul {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(3, 75px);
+    justify-self: start;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+body header ul li {
+    display: grid;
+    text-align: center;
+    width: 75px;
+    align-self: end;
+    margin: 10px;
+}
+
+
+body header ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+body header .prs-button {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+body .prs-layout {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 85% 14%;
+}
+
+body .prs-layout .prs-text {
+    display: grid;
+
+}
+
+body .prs-layout .prs-text h1 {
+    display: grid;
+    justify-self: center;
+    color: blue;
+}
+
+body .prs-layout .prs-text p {
+    display: grid;
+    text-align: center;
+    width: 95%;
+}
+
+body .prs-layout .prs-text .prs-desktopImg {
+    width: 95%;
+    height: 80%;
+}
+
+body .prs-layout .prs-text .prs-tabletImg {
+    display: none;
+}
+
+body .prs-layout .prs-text .prs-mobileImg {
+    display: none;
+}
+
+body .prs-layout .prs-slidebar {
+    display: grid;
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+}
+
+body .prs-layout .prs-slidebar h2 {
+    display: grid;
+    color: blue;
+    margin-left: 20px;
+}
+
+body footer {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+}
+
+body footer h2 {
+    color: blue;
+}
+
+body footer p {
+    margin: 0;
+}
