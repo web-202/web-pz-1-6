@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    color: var(--title-color-desktop);
+    grid-template-columns: 95px repeat(2,auto);
+    height: 30px;
+    width: 99%;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--title-color-desktop);
+}
+header .app-nav-list{
+    display: grid;
+    grid-template-columns: repeat(3,95px);
+    justify-self:  start ;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    
+}
+header li {
+    list-style-type: none;
+    margin: 10px;
+}
+.app-main-btn{
+    background-color: var(--button-color-desktop);
+    color: white;
+    height: 30px;
+    border: 0;
+    margin-left: auto;
+}
+
+.app-main h1{
+    color: var(--title-color-desktop);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.app-main-wrap{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns:85% 14%;
+}
+.app-desktop{
+    width: 95%;
+    height: 80%;
+}
+
+.app-mobile{
+    display: none;
+}
+.app-table{
+    display: none;
+}
+.app-sidebar{
+    display: grid;
+    border: 1px black solid;
+    width: 100%;
+    height: 1000px;
+    color: var(--title-color-desktop);
+}
+footer{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    justify-items: center;
+    align-items: center;
+}
+footer h2
+{   
+    color: var(--title-color-desktop);
+}
