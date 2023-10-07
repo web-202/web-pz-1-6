@@ -1,0 +1,49 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 768px) {
+    .app-main-wrap {
+        display: inline;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .app-main-wrap {
+        display: inline;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .app-main-wrap {
+    display: grid;
+    width: calc(100% - var(--gutter-width));
+    height: 100%;
+    margin:0 var(--gutter-width) 0 0;
+  }
+
+  .app-main-wrap .app-sidebar{
+    
+    width: 100%;
+    position:relative;
+    height: 780px;
+    margin:0 0 0 var(--gutter-width);
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .app-main-wrap {
+        display: grid;
+        width: calc(100% - var(--gutter-width));
+        height: 100%;
+        margin:0 var(--gutter-width) 0 0;
+      }
+    
+      .app-main-wrap .app-sidebar{
+        
+        width: calc(100% - var(--gutter-width));
+        height: 1150px;
+        margin:0 0 0 var(--gutter-width);
+      }
+}

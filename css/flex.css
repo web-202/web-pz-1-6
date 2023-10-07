@@ -1,0 +1,95 @@
+html {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+    height: var(--header-height);
+    box-sizing: border-box;
+    display: flex;
+}
+
+header > h2 > a {
+    color: var(--title-color-mobile);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header > nav {
+    margin-top: 15px;
+}
+
+header .app-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .app-nav-list > li {
+    margin-left: var(--gutter-width);
+}
+
+header .app-nav-list > li a {
+    text-decoration: none;
+    color: var(--title-color-mobile);
+}
+
+header .app-main-btn {
+    height: 40px;
+    border: none;
+    margin-left: auto;
+    padding: calc(var(--gutter-width) / 2) var(--gutter-width);
+    background: var(--button-color-mobile);
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Main */
+.app-main-wrap {
+    margin: 0 calc(var(--gutter-width) * 2);
+    height: calc(100% - var(--header-height) - var(--footer-height));
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+}
+
+.app-main-wrap .app-main {
+    text-align: center;
+    width: 100%;
+}
+
+.app-main-wrap .app-sidebar {
+    border: 1px solid #000;
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+}
+
+.app-main-wrap .desc {
+    margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
+}
+
+.app-main-wrap .app-bg-cont img {
+    width: 100%;
+}
+
+footer {
+    margin: 0 calc(var(--gutter-width) * 2);
+    height: var(--footer-height);
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+}
