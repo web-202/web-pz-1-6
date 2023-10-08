@@ -1,0 +1,127 @@
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .app-table{
+        display: none;
+    }
+    
+    .app-desktop{
+        display: none;
+    } 
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {   
+    .app-table{
+        display: none;
+    }
+    
+    .app-desktop{
+        display: none;
+    }
+}
+ 
+
+@media (max-width: 768px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .app-main-wrap .app-main{
+        width: calc(75% - var(--gutter-width));
+        height: 100%;
+        margin:0 var(--gutter-width) 0 0;
+      }
+    
+    
+      a{
+        color: var(--title-color-table);
+      }
+    
+      h1{
+        color: var(--title-color-table);
+      }
+    
+      h2{
+        color: var(--title-color-table);
+      }
+    
+      h3{
+        color: var(--title-color-table);
+      }
+    
+      .app-main-btn{
+        background-color: var(--button-color-table);  
+      }
+    
+      .app-table{
+        display: block;
+        margin: auto;
+        }
+
+      .app-mobile{
+        display: none;
+    }
+    
+      .app-desktop{
+        display: none;
+    }
+    
+      .app-main-wrap{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin:0 0 0 var(--gutter-width);
+      }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  
+    .app-main-wrap .app-main{
+    width: calc(75% - var(--gutter-width));
+    height: 100%;
+    margin:0 var(--gutter-width) 0 0;
+  }
+
+
+  a{
+    color: var(--title-color-desktop);
+  }
+
+  h1{
+    color: var(--title-color-desktop);
+  }
+
+  h2{
+    color: var(--title-color-desktop);
+  }
+
+  h3{
+    color: var(--title-color-desktop);
+  }
+
+  .app-main-btn{
+    background-color: var(--button-color-desktop);  
+  }
+
+  .app-mobile{
+    display: none;
+  }
+
+  .app-desktop{
+    display: block;
+    }
+
+    .app-table{
+        display: none;
+    }
+
+  .app-main-wrap{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin:0 0 0 var(--gutter-width);
+  }
+}
