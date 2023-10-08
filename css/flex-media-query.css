@@ -1,0 +1,89 @@
+/* Стилі для мобільного телефона */
+@media (max-width: 480px) {
+    /* Зміни стиль кнопки і кольору тексту */
+    .button {
+        background-color: blue;
+        color: white;
+    }
+
+    /* Зміна кольору тексту на всій сторінці */
+    body {
+        color: red;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Позиціонуємо slidebar під картинкою */
+    .main-slidebar{
+        margin-top: 20px;
+        flex: 1;
+    }
+
+    /* Зміна картинки для мобільного телефона */
+    .app-mobile{
+        display: block;
+    }
+    .app-table, .app-desktop{
+        display: none;
+    }
+}
+    /* Стилі для планшетів */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Зміни кольору тексту */
+    body {
+        color: green;
+    }
+    h1{
+        color: green;
+    }
+    /* Зміни стиль кнопки */
+    .button {
+        background-color: red;
+        color: white;
+    }
+
+    /* Позиціонуємо slidebar справа від тексту і картинки */
+    .main-slidebar {
+        margin-left: 20px; /* Наприклад, зміщуємо на 20px від лівого краю */
+    }
+
+    /* Зміна картинки для планшету */
+    .app-table{
+        display: block;
+    }
+    .app-mobile, .app-desktop{
+        display: none;
+    }
+    
+}
+    /* Стилі для моніторів */
+@media (min-width: 769px) {
+    /* Зміни кольору тексту */
+    body {
+        color: blue;
+    }
+    h1{
+        color: blue;
+    }
+
+    /* Зміни стиль кнопки */
+    .button {
+        background-color: red;
+        color: white;
+    }
+
+    /* Змінюємо стилі slidebar для моніторів */
+    .main-slidebar {
+        /* Додайте стилі для більшого slidebar */
+    }
+
+    /* Зміна картинки для монітора */
+    .app-desktop{
+        display: block;
+    }
+    .app-table, .app-mobile{
+        display: none;
+    }
+}
