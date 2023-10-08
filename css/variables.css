@@ -10,4 +10,16 @@
   --gutter-width: 20px;
   --header-height: 100px;
   --footer-height: 100px;
+
+  --primary-bg-color: #e4e4e4;
+  --text-color: white;
+  --sidebar-bg-color: #eee;
+
+  --primary-bg-color: #e4e4e4;
+  --text-color: white;
+  --header-height: 60px;
+  --footer-height: 40px;
+  --gutter-width: 20px;
+  --button-color-mobile: #007bff;
+  --title-color-mobile: #333;
 }

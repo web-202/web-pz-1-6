@@ -1,6 +1,3 @@
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-/*utils*/
 h1 {
   font-size: 32px;
   font-weight: bold;
@@ -22,22 +19,19 @@ h2 {
 }
 
 
-.app-table, .app-desktop {
+.app-table,
+.app-desktop {
   display: none;
 }
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+@media (min-width: 576px) {}
 
-}
-
-/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  header > h2 > a {
+  header>h2>a {
     color: var(--title-color-table);
   }
 
-  header .app-nav-list > li a {
+  header .app-nav-list>li a {
     color: var(--title-color-table);
   }
 
@@ -63,7 +57,6 @@ h2 {
 
 }
 
-/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .app-table {
     display: none;
@@ -74,13 +67,12 @@ h2 {
   }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  header > h2 > a {
+  header>h2>a {
     color: var(--title-color-desktop);
   }
 
-  header .app-nav-list > li a {
+  header .app-nav-list>li a {
     text-decoration: none;
     color: var(--title-color-desktop);
   }
