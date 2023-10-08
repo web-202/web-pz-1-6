@@ -6,82 +6,85 @@ html {
 }
 
 body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     padding: var(--gutter-width) calc(var(--gutter-width) * 2);
     height: var(--header-height);
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
-header>h2 {
+header h2 {
     float: left;
     vertical-align: middle;
     margin: 0;
 }
 
-header>h2>a {
+header h2 a {
     color: var(--title-color-mobile);
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
 
-header>nav {
+header nav {
     float: left;
     margin-top: 7px;
 }
 
-header .app-nav-list>li {
+.app-nav-list li {
     float: left;
     margin-left: var(--gutter-width);
 }
 
-header .app-nav-list>li a {
+.app-nav-list li a {
     text-decoration: none;
     color: var(--title-color-mobile);
 }
 
-header .app-main-btn {
+.app-main-btn {
     border: none;
     padding: calc(var(--gutter-width) / 2) var(--gutter-width);
     background: var(--button-color-mobile);
     color: white;
     text-transform: uppercase;
-}
-
-header>.app-main-btn {
     float: right;
 }
 
-/*main*/
 .app-main-wrap {
     margin: 0 calc(var(--gutter-width) * 2);
     height: calc(100% - var(--header-height) - var(--footer-height));
     box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-gap: 20px;
 }
 
-.app-main-wrap .app-main {
+.app-main {
     text-align: center;
     width: 100%;
 }
 
-.app-main-wrap .app-sidebar {
+.app-sidebar {
     border: 1px solid #000;
-    float: left;
     width: 100%;
     box-sizing: border-box;
     padding: var(--gutter-width);
     margin-top: var(--gutter-width);
 }
 
-.app-main-wrap .desc {
+.app-main .desc {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
 
-.app-main-wrap .app-bg-cont img {
-    width: 100%;
+.app-bg-cont img {
+    width: 70%;
+    max-width: 100%;
 }
 
 footer {
@@ -92,7 +95,6 @@ footer {
     box-sizing: border-box;
 }
 
-.btn {
-    margin-left: 40px;
-    color: red;
+.app-main-btn{
+    margin-left: 65%;
 }
