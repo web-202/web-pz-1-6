@@ -1,4 +1,5 @@
 html {
+    padding: 0;
     margin: 0;
     font-size: 14px;
     font-family: Arial;
@@ -11,66 +12,94 @@ body {
     margin: 0;
 }
 header {
-    padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+    display: grid;
+    grid-template-columns: 77.5px 230px auto;
+    grid-template-rows: 100px;
+    height: 100px;
     height: var(--header-height);
+    gap: 4px;
     box-sizing: border-box;
+    padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+    margin: 0;
+    padding: 15px 0px 0px 40px ;
 }
 header > h2 {
-    float: left;
-    vertical-align: middle;
-    margin: 0;
+    display: grid;
+    width: 100px;
 }
 header > h2 > a{
     color: var(--title-color-mobile);
-    font-size: 24px;
-    font-weight: bold;
     text-decoration: none;
+    font-size: 24px;
+    margin-top: -5px;
+    font-weight: bold;
 }
-header > nav {
-    float: left;
-    margin-top: 7px;
+header .app-nav-list {
+    display: flex;
+    margin-left: var(--gutter-width);
+    width: 238px;
+}
+header > nav > ul{
+    display: grid;
+    width: 230px;
+    margin: 7px 0px 0px 0px;
+}
+li{
+    margin-left: var(--gutter-width);
+    font-weight: 400;
+    font-size: 14px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 100%;
 }
 
-header .app-nav-list > li{
-    float: left;
-    margin-left: var(--gutter-width);
-}
 header .app-nav-list > li a {
     text-decoration: none;
     color: var(--title-color-mobile);
 }
 header .app-main-btn {
     border: none;
-    padding: calc(var(--gutter-width) / 2) var(--gutter-width);
-    background: var(--button-color-mobile);
     color: white;
+    padding: calc(var(--gutter-width) / 2) var(--gutter-width);
     text-transform: uppercase;
+    background: var(--button-color-mobile);
 }
 header > .app-main-btn {
-    float: right;
+    justify-self: end;
+    align-items: center;
+}
+.spacer{
+    flex-grow: 1;
+}
+header > .app-main-btn{
+    margin: 5px 50px;
+    width: 95px;
+    height: 36px;
 }
 
-/*main*/
+
+
+
+
 .app-main-wrap {
-    flex-grow: 1; /* Расширить содержимое, чтобы занять доступное место */
+    flex-grow: 1;
+    height: calc(100% - var(--header-height) - var(--footer-height));
     margin: 0 calc(var(--gutter-width) * 2);
     padding: 20px;
-    height: calc(100% - var(--header-height) - var(--footer-height));
     box-sizing: border-box;
 }
 .app-main-wrap .app-main{
     text-align: center;
     width: 100%;
 }
-
-
 .app-main-wrap .app-sidebar{
-    border: 1px solid #000;
-    float: left;
+    display: grid;
     width: 100%;
+    margin-top: var(--gutter-width);
+    border: 1px solid #000;
     box-sizing: border-box;
     padding: var(--gutter-width);
-    margin-top: var(--gutter-width);
 }
 .app-main-wrap .desc {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
@@ -80,9 +109,8 @@ header > .app-main-btn {
 }
 footer {
     margin: 0 calc(var(--gutter-width) * 2);
-    height: var(--footer-height);
-    text-align: center;
-    overflow: auto;
     box-sizing: border-box;
+    height: var(--footer-height);
+    overflow: auto;
+    text-align: center;
 }
-
