@@ -72,6 +72,7 @@ header > .app-main-btn {
 .spacer{
     flex-grow: 1;
 }
+
 header > .app-main-btn{
     margin: 5px 50px;
     width: 95px;

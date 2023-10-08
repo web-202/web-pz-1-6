@@ -3,8 +3,8 @@
   --title-color-table: green;
   --title-color-desktop: blue;
 
-  --button-color-mobile: blue;
-  --button-color-table: brown;
+  --button-color-mobile: rgb(255, 0, 0);
+  --button-color-table: rgb(112, 42, 165);
   --button-color-desktop: red;
 
   --gutter-width: 20px;
