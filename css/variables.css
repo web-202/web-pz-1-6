@@ -10,4 +10,16 @@
   --gutter-width: 20px;
   --header-height: 100px;
   --footer-height: 100px;
+
+  --header-height: 60px;
+  --footer-height: 40px;
+  --button-color-mobile: #007bff;
+  --title-color-mobile: #333;
+
+  --text-color: red;
+    --bg-color: blue;
+    --padding: 20px 40px;
+    --margin-left: 20px;  
+    --font-size: 24px;
+    --font-weight: bold;
 }
