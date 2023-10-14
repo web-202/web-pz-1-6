@@ -9,14 +9,16 @@
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 980px) {
   .app-main-wrap .app-main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: flex-start;
-    width: 75%;
+    width: 60%;
     margin-right: var(--gutter-width);
+    justify-content: center;
+    background-color: blueviolet; 
+    margin-left: 20%;
   }
 
   .app-main-wrap .app-sidebar {
