@@ -6,7 +6,7 @@ header{
     display: grid;
     grid-template-columns: 130px 80px 80px 80px 1fr;
     gap: 1px;
-    color: red;
+    color: var(--title-color-mobile);
     align-items: center;
 }
 
@@ -15,7 +15,7 @@ header{
 }
 
 input[type="button"]{
-    background-color: blue;
+    background-color: var(--button-color-mobile);
     color: white;
     border: none;
     padding: 10px;
@@ -32,19 +32,19 @@ input[type="button"]{
 }
 
 h1{
-    color: red;
+    color: var(--title-color-mobile);
 }
 
 h2{
-    color: red;
+    color: var(--title-color-mobile);
 }
 
 .title-wrapper{
-    color: red;
+    color: var(--title-color-mobile);
 }
 
 h3{
-    color: red;
+    color: var(--title-color-mobile);
 }
 
 footer{
