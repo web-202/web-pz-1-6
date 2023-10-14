@@ -15,30 +15,30 @@ header {
     box-sizing: border-box;
 }
 
-header>h2 {
+header > h2 {
     float: left;
     vertical-align: middle;
     margin: 0;
 }
 
-header>h2>a {
+header > h2 > a {
     color: var(--title-color-mobile);
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
 
-header>nav {
+header > nav {
     float: left;
     margin-top: 7px;
 }
 
-header .app-nav-list>li {
+header .app-nav-list > li {
     float: left;
     margin-left: var(--gutter-width);
 }
 
-header .app-nav-list>li a {
+header .app-nav-list > li a {
     text-decoration: none;
     color: var(--title-color-mobile);
 }
@@ -55,7 +55,6 @@ header>.app-main-btn {
     float: right;
 }
 
-/*main*/
 .app-main-wrap {
     margin: 0 calc(var(--gutter-width) * 2);
     height: calc(100% - var(--header-height) - var(--footer-height));
