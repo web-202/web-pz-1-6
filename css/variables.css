@@ -3,9 +3,9 @@
   --title-color-table: green;
   --title-color-desktop: blue;
 
-  --button-color-mobile: blue;
-  --button-color-table: brown;
-  --button-color-desktop: red;
+  --button-color-mobile: yellow;
+  --button-color-table: rgb(8, 69, 8);
+  --button-color-desktop: orange;
 
   --gutter-width: 20px;
   --header-height: 100px;
