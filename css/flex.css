@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color: white;
+}
+
+
+.app-nav-list {
+    display: flex;
+}
+
+.app-nav-list li {
+    margin-right: 30px;
+}
+
+.app-main-wrap {
+    flex-grow: 1;
+    display: flex;
+}
+
+.app-main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.app-main__title {
+   margin: 10px auto;
+}
+
+.app-bg-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.app-bg-cont img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app-sidebar {
+    margin: 10px;
+    flex-basis: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
