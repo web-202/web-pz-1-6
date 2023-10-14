@@ -34,6 +34,11 @@ a{
 
 }
 
+.hidden{
+    margin-right: 150px;
+    visibility: hidden;
+}
+
 .app-main-wrap{
     text-align: center;
 }

@@ -125,3 +125,9 @@
     margin:0 0 0 var(--gutter-width);
   }
 }
+
+@media (min-width: 1400px) {
+  .hidden{
+    visibility: visible;
+  }
+}
