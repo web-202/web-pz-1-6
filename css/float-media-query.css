@@ -11,18 +11,18 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-main-wrap .app-main{
-    float: left;
-    width: calc(75% - var(--gutter-width));
-    height: 100%;
-    margin:0 var(--gutter-width) 0 0;
+  .app-main-wrap .app-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 75%;
+    margin-right: var(--gutter-width);
   }
 
-  .app-main-wrap .app-sidebar{
-    float: left;
-    width: calc(25% - var(--gutter-width));
-    height: 100%;
-    margin:0 0 0 var(--gutter-width);
+  .app-main-wrap .app-sidebar {
+    width: 25%;
+    margin-left: var(--gutter-width);
   }
 }
 
