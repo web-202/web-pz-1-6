@@ -1,0 +1,58 @@
+@media screen and (min-width: 780px) {
+    .wrapper{
+        grid-template-columns: 2fr 1fr
+    }
+
+    input[type="button"]{
+        background-color: var(--button-color-table);
+    }
+
+    h1{
+        color: var(--title-color-table);
+    }
+
+    h2{
+        color: var(--title-color-table);
+    }
+    
+    h3{
+        color: var(--title-color-table);
+    }
+
+    header{
+        color: var(--title-color-table);
+    }
+
+    main{
+        float: left;
+    }
+    
+    .title-footer > b{
+        color: var(--title-color-table);;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+    input[type="button"]{
+        background-color: var(--button-color-desktop);
+    }
+    header{
+        color: var(  --title-color-desktop);
+    }
+
+    h1{
+        color:  var(  --title-color-desktop);
+    }
+
+    h2{
+        color:  var(  --title-color-desktop);
+    }
+
+    h3{
+        color:  var(  --title-color-desktop);
+    }
+
+    .title-footer > b{
+        color:  var(  --title-color-desktop);;
+    }
+}

@@ -1,0 +1,54 @@
+@media screen and (min-width: 780px) {
+    main{
+        display: flex;
+    }
+
+    input[type="submit"]{
+        background-color: var(--button-color-table);
+    }
+    
+    .sidebar{
+        width: 20%;
+    }
+
+    ul{
+        color:  var(--title-color-table);
+    }
+
+    h1{
+        color: var(--title-color-table);
+    }
+
+    h2{
+        color: var(--title-color-table)
+    }
+
+    h3{
+        color: var(--title-color-table)
+    }
+
+    .image{
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 1268px) {
+    input[type="submit"]{
+        background-color: var(--button-color-desktop);
+    }
+    ul{
+        color: var(--title-color-desktop);
+    }
+
+    h1{
+        color: var(--title-color-desktop)
+    }
+
+    h2{
+        color: var(--title-color-desktop);
+    }
+
+    h3{
+        color: var(--title-color-desktop);
+    }
+}

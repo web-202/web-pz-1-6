@@ -71,11 +71,21 @@ header > .app-main-btn {
 .app-main-wrap .app-bg-cont img{
     width: 100%;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 footer {
-    margin: 0 calc(var(--gutter-width) * 2);
+    margin-top: auto; /* Робить футер прикріпленим до низу */
+    padding: var(--gutter-width) calc(var(--gutter-width) * 2);
     height: var(--footer-height);
     text-align: center;
     overflow: auto;
     box-sizing: border-box;
 }
-
