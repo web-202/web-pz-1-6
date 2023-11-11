@@ -23,13 +23,13 @@ header > h2{
     display: flex;
     justify-content:left;
 }
-header > h2 > a{
-    color: var(--title-color-mobile);
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: -5px;
-}
+/*header > h2 > a{*/
+/*    color: var(--title-color-mobile);*/
+/*    font-size: 24px;*/
+/*    font-weight: bold;*/
+/*    text-decoration: none;*/
+/*    margin-top: -5px;*/
+/*}*/
 header > nav {
     display: flex;
     margin-top: 7px;
@@ -48,17 +48,17 @@ li{
     margin-left: 0px;
     width: 100%;
 }
-header .nav-list > li a {
-    text-decoration: none;
-    color: var(--title-color-mobile);
-}
-header .main-btn {
-    border: none;
-    padding: calc(var(--gutter-width) / 2) var(--gutter-width);
-    background: var(--button-color-mobile);
-    color: white;
-    text-transform: uppercase;
-}
+/*header .nav-list > li a {*/
+/*    text-decoration: none;*/
+/*    color: var(--title-color-table);*/
+/*!*}*!*/
+/*header .main-btn {*/
+/*    border: none;*/
+/*    padding: calc(var(--gutter-width) / 2) var(--gutter-width);*/
+/*    background: var(--button-color-mobile);*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*}*/
 header > .main-btn {
     display: flex;
     justify-content:flex-end;
