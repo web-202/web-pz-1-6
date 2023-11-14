@@ -1,0 +1,108 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+header {
+    display: flex;
+    padding: var(--gutter-width) calc(var(--gutter-width) * 2);
+    height: var(--header-height);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px 0px 0px 40px ;
+}
+header > h2{
+    display: flex;
+    justify-content:left;
+}
+/*header > h2 > a{*/
+/*    color: var(--title-color-mobile);*/
+/*    font-size: 24px;*/
+/*    font-weight: bold;*/
+/*    text-decoration: none;*/
+/*    margin-top: -5px;*/
+/*}*/
+header > nav {
+    display: flex;
+    margin-top: 7px;
+}
+header .nav-list {
+    display: flex;
+    margin-left: var(--gutter-width);
+    width: 238px;
+}
+li{
+    margin-left: var(--gutter-width);
+    font-weight: 400;
+    font-size: 14px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 100%;
+}
+/*header .nav-list > li a {*/
+/*    text-decoration: none;*/
+/*    color: var(--title-color-table);*/
+/*!*}*!*/
+/*header .main-btn {*/
+/*    border: none;*/
+/*    padding: calc(var(--gutter-width) / 2) var(--gutter-width);*/
+/*    background: var(--button-color-mobile);*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*}*/
+header > .main-btn {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.button_fix{
+    flex-grow: 1;
+}
+header > .main-btn{
+    margin: 5px 40px;
+    width: 95px;
+    height: 36px;
+}
+
+
+.main-wrap {
+    flex-grow: 1; /* Расширить содержимое, чтобы занять доступное место */
+    margin: 0 calc(var(--gutter-width) * 2);
+    padding: 20px;
+    height: calc(100% - var(--header-height) - var(--footer-height));
+    box-sizing: border-box;
+}
+.main-wrap .main{
+    text-align: center;
+    width: 100%;
+}
+.main-wrap .sidebar{
+    border: 1px solid #000;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--gutter-width);
+    margin-top: var(--gutter-width);
+}
+.main-wrap .desc {
+    margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
+}
+.main-wrap .bg-cont img{
+    width: 100%;
+}
+footer {
+    margin: 0 calc(var(--gutter-width) * 2);
+    height: var(--footer-height);
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+}
