@@ -11,14 +11,14 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .app-main-wrap .app-main{
+  .app-main.wrap .app-main{
     float: left;
     width: calc(75% - var(--gutter-width));
     height: 100%;
     margin:0 var(--gutter-width) 0 0;
   }
 
-  .app-main-wrap .app-sidebar{
+  .app-main.wrap .app-side.bar{
     float: left;
     width: calc(25% - var(--gutter-width));
     height: 100%;
